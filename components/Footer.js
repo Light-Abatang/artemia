@@ -8,7 +8,7 @@ export default function Footer () {
     return (
         <footer className="grid grid-cols-1 md:px-8 md:grid-cols-2 lg:grid-cols-3 lg:py-4 lg:px-2 lg:gap-0">
             <div>
-                <p className="text-2xl text-blue-500 font-bold">Artemis</p>
+                <p className="text-2xl text-blue-500 font-bold">Artemia</p>
                 <p className="text-xs text-gray-600">&copy; {year}Business Management Application</p>                                  
             </div>
             <div>
@@ -17,7 +17,7 @@ export default function Footer () {
             </div>
             <div>
                 <ul className="flex lg:justify-end items-center gap-4">
-                    <li><Link href="#"><IoLogoLinkedin className="text-blue-500  text-2xl"/></Link></li>
+                    <li><Link href="#"><IoLogoLinkedin  className="text-blue-500  text-2xl"/></Link></li>
                     <li><Link href="#"><FaFacebookSquare className="text-blue-500  text-2xl"/></Link></li>
                     <li><Link href="#"><FaSquareXTwitter className="text-blue-500  text-2xl"/></Link></li>
                 </ul>

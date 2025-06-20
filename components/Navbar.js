@@ -15,8 +15,8 @@ export default function Navbar () {
                 <p className="text-blue-500 font-bold text-2xl">Artemia</p>
                 <ul className="hidden md:flex gap-10 font-semibold cursor-pointer">
                     <li>Home</li>
-                    <li>Dashboard</li>
-                    <li>Project</li>
+                    <li>Product</li>
+                    <li>Tasks</li>
                     <li>Profile</li>
                 </ul>
                 <p className="hidden md:block h-[30px] w-[80px] bg-blue-400 text-white text-center rounded-lg">Login</p>
@@ -29,13 +29,13 @@ export default function Navbar () {
                 <div>
                 <ul>
                     <li>Home</li>
-                    <li>Dashboard</li>
-                    <li>Project</li>
+                    <li>Product</li>
+                    <li>Tasks</li>
                     <li>Profile</li>
                     <p className="mt-2 w-[60px] h-[25px] bg-blue-500 text-center">Login</p>
                 </ul>
             </div>
-            )};
+            )}
                    
         </main>
     )
