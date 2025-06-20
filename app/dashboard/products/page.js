@@ -1,13 +1,13 @@
 import { auth } from "@/auth";
 import { Authorizationcheck } from "@/config/authorization-check";
-import AddProduct from "./add-products";
+import Products from "./products";
 
 export default async function page () {
     const session = await auth();
     return(
         <>
         <Authorizationcheck/>
-        <AddProduct userId={session?.user?.id}/>
+        <Products userId={session?.user?.id}/>
         </>
     )
 }
